@@ -6,3 +6,9 @@ def index (request):
 
 def inner (request):
     return render(request, 'inner-page.html')
+
+def register (request):
+    return render(request, 'Register.html')
+
+def login  (request):
+    return render(request, 'Login.html')
