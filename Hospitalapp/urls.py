@@ -9,4 +9,5 @@ urlpatterns = [
     path('inner-page/', views.inner, name='inner'),
     path('register/', views.register, name='register'),
     path('login/', views.login, name='login'),
+    path('upload/', views.login, name='upload'),
 ]
