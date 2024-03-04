@@ -1,5 +1,5 @@
 from django.contrib import admin
-from Hospitalapp.models import Users,Product,Member,details
+from Hospitalapp.models import Users,Product,Member,Contact
 
 
 # Register your models here.
@@ -7,4 +7,5 @@ from Hospitalapp.models import Users,Product,Member,details
 admin.site.register(Users)
 admin.site.register(Product)
 admin.site.register(Member)
-admin.site.register(details)
+admin.site.register(Contact)
+
